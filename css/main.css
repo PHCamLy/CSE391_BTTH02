@@ -1,0 +1,19 @@
+body{
+    border-color: brown;
+    padding: 0;
+    height: 100vh;
+
+}
+.wraper{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 80px 300px 80px;
+}
+.header{
+    background-color: lightblue;
+    grid-column: span 12;
+}
+.left{
+    background-color: #f00;
+    grid-column: span 12;
+}
