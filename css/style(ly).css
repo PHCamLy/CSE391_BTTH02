@@ -1,0 +1,193 @@
+
+/*  CSS for All */
+body{
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* CSS for Header */
+#header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px -2px gray;
+    position: relative;
+    z-index: 2;
+    
+}
+
+#header .header-inner{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+#header .header-inner .logo{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+}
+.logo ing{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#header .header-inner .nav{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-items: center;
+
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: arial,sans-serif;
+    list-style: none;
+}
+.main-menu>li{
+    margin-right: 10px;
+    position: relative;
+}
+.main-menu>li>a{
+    text-decoration: none;
+    color: #020516;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.sub-menu{
+    display: none;
+}
+.main-menu>li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    top:25px;
+    left: 0;
+    background-color: #f4f4f4;
+    padding: 10px;
+    width: max-content;
+    list-style: none;
+
+}
+.main-menu>li:hover .sub-menu li{
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+.main-menu>li:hover .sub-menu li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+/* CSS for slider... */
+/*.wrapper {
+    width: 100%;
+}
+#slider{
+    width: 100%;
+    height: 600px;
+   display: flexs;
+    position: relative;
+}
+.slider-item{
+    width: 100% ;
+    height: 100%;
+}
+.slider-item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+span .fa-circle-chevron-left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: (300px - 15px);
+    left: 10px;
+    color:blanchedalmond;
+    font-size: 30px;
+
+}
+span .fa-circle-chevron-right{
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: (300px - 15px);
+    right: 10px;
+    color: white;
+    font-size: 30px;*/
+
+
+/* css for intro */
+#intro{
+   
+    justify-content: center;
+    padding: 0px 0;
+    text-align: center;
+   
+
+}
+.intro-inner{
+  
+    text-align: center;
+    justify-content: center;
+   
+    
+
+}
+
+.intro-inner h3{
+    font-size: 1.75rem ;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.intro-inner h5{
+    font-size: 1.2rem ;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.intro-content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.intro-content .intro-item{
+    width: 28%;
+    padding: 18px;
+    border: 1px  solid #e1e0e0;
+
+}
+.intro-content .intro-item img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.intro-content .intro-item p{
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 20px;
+}
+/* css for form*/
+#auth-form{
+    justify-content: center;
+    display: flex;
+    background-color: blueviolet;
+    text-align: center;
+}
+.auth-form-header{
+    
+    
+}
+
+
+
+
